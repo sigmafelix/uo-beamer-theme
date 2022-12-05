@@ -2,7 +2,7 @@
 
 ## Description
 - Unofficial UO beamer theme
-- This work is almost entirely based on [a custom Beamer theme for Oregon State University](https://github.com/jeremy-lilly/osu-beamer-theme) by Jeremy Lilly and Michael Kupperman, with changes for University of Oregon design guides.
+- This work is almost entirely based on [a custom Beamer theme for Oregon State University](https://github.com/jeremy-lilly/osu-beamer-theme) by [Jeremy Lilly](https://github.com/jeremy-lilly) and [Michael Kupperman](https://github.com/MKupperman), with changes for University of Oregon design guides.
 
 ## Usage
 - Place all `*.sty` files and your `*.tex` files in the same directory and run `lualatex` or `xelatex`. I use [TeXLive 2022](https://www.tug.org/texlive/), [Visual Studio Code](https://code.visualstudio.com/), and [LaTeX Workshop Extension for Visual Studio Code](https://github.com/James-Yu/LaTeX-Workshop).
