@@ -1,0 +1,51 @@
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+%|                                               |%
+%| Original version By: Jeremy Lilly             |%
+%| Modified By: Insang Song                      |%
+%| 12/4/22                                       |%
+%|                                               |%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+
+
+\mode<presentation>
+
+
+\RequirePackage{iftex}
+
+\ifLuaTeX
+    \RequirePackage{fontspec}
+    \RequirePackage{sourceserifpro}
+    \RequirePackage{sourcesanspro}
+    \usepackage[T1]{fontenc}
+\else
+    \ifXeTeX
+        \RequirePackage{fontspec}
+        \RequirePackage{sourceserifpro}
+        \RequirePackage{sourcesanspro}
+        \usepackage[T1]{fontenc}
+    \else
+        \RequirePackage{fontspec}
+        \RequirePackage{sourceserifpro}
+        \RequirePackage{sourcesanspro}
+        \RequirePackage[utf8]{inputenc}
+        \RequirePackage[T1]{fontenc}
+    \fi
+\fi
+
+
+\RequirePackage{parskip}
+\RequirePackage{tikz}
+\RequirePackage{bookmark}
+\RequirePackage{graphicx}
+
+\usetikzlibrary{positioning}
+
+\usecolortheme{UO}
+\usefonttheme{UO}
+\useinnertheme{UO}
+\useoutertheme{UO}
+
+\newcommand{\department}[1]{\def\insertdepartment{#1}}
+
+
+\mode<all>

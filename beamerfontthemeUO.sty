@@ -1,0 +1,42 @@
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+%|                                               |%
+%| Original version By: Jeremy Lilly             |%
+%| Modified By: Insang Song                      |%
+%| 12/4/22                                       |%
+%|                                               |%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+
+
+\mode<presentation>
+
+
+\ifLuaTeX
+    \setmainfont{sourceserifpro}
+    \setsansfont{sourcesanspro}
+\else
+    \ifXeTeX
+        \setmainfont{sourceserifpro}
+        \setsansfont{sourcesanspro}
+    \else
+        % nothing
+    \fi
+\fi
+
+
+% Title slide
+\setbeamerfont{title}{family=\rmfamily, series=\bfseries, size=\huge}
+\setbeamerfont{subtitle}{family=\rmfamily, series=\mdseries, size=\LARGE}
+\setbeamerfont{author}{family=\rmfamily, size=\large}
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamerfont{department}{family=\sffamily, size=\large}
+\setbeamerfont{institute}{family=\rmfamily, size=\scriptsize}
+
+% Frametitles
+\setbeamerfont{frametitle}{family=\rmfamily, series=\bfseries}
+\setbeamerfont{framesubtitle}{family=\rmfamily, series=\mdseries, size=\large}
+
+% TOC
+\setbeamerfont{section in toc}{family=\rmfamily, series=\bfseries, size=\large}
+
+
+\mode<all>
